@@ -1,6 +1,6 @@
 ### Hi there 👋, I am Sumit Maurya!
-- 🔭 I’m currently working on Data Structure And Algorithms
-- 🌱 I’m currently learning Data Engineering Stacks
+- 🔭 I’m currently working with GEP WorldWide.
+- 🌱 I’m currently learning Data Engineering Stacks and  Data Structure & Algorithms
 
 <!--
 **WhatNextAlgo/WhatNextAlgo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
