@@ -1,4 +1,4 @@
-### Hi there 👋, I am Sumit Maurya!
+### Hi there <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 20px>, I am Sumit Maurya!
 - 🔭 I’m currently working with GEP WorldWide.
 - 🌱 I’m currently learning Data Engineering Stacks and  Data Structure & Algorithms
 
