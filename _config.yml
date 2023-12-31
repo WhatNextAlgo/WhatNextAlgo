@@ -28,7 +28,8 @@ twitter_username: whatnextalgo
 github_username:  whatnextalgo
 
 # Build settings
-theme: minima
+# Removed minima theme using regular 
+# theme: minima
 plugins:
   - jekyll-feed
 
