@@ -27,6 +27,15 @@ url: "https://whatnextalgo.github.io" # the base hostname & protocol for your si
 twitter_username: whatnextalgo
 github_username:  whatnextalgo
 
+# Fields minima uses, but are not defaulted with jekyll new command.
+# author is the default for posts, the Atom feed, and is used in the footer
+author: Sumit Maurya
+
+# new fields minima uses, but are not defaulted with jekyll new command.
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: Company Name, Inc
+copyright: "WhatNextAlgo LLC"
+
 # Build settings
 # Removed minima theme using regular 
 # theme: minima
