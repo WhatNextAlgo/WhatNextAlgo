@@ -26,8 +26,8 @@ layout: default
   </div> -->
 
   <!-- Top button -->
-  <div class="scroll-button top-button" style="position: sticky; bottom: 50%; right: 50%; transform: translate(50%, 50%); display: none;">
-    <a href="#" onclick="scrollToTop()"><img src="{{ '/images/up-arrow.png' | relative_url }}" alt="Top Arrow" width="30px" height="30px"></a>
+  <div class="scroll-button top-button" style="position: sticky; bottom: 50%; right: 50%;  display: none;">
+    <a href="#" onclick="scrollToTop()"><img src="{{ '/images/up-arrow.png' | relative_url }}" alt="Top Arrow" width="30px" height="30px" style="display: block; margin: 0 auto;"></a>
   </div>
 
   {%- if site.disqus.shortname -%}
@@ -52,36 +52,13 @@ layout: default
 </div>
 
 <script>
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-
-  function scrollDown() {
-    window.scrollBy({
-      top: window.innerHeight,
-      behavior: 'smooth'
-    });
-  }
-
   // Show/hide the "Top" button based on scroll position
   document.addEventListener('scroll', function() {
     var topButton = document.querySelector('.top-button');
-    if (window.scrollY > 20) {
+    if (window.scrollY) {
       topButton.style.display = 'block';
     } else {
       topButton.style.display = 'none';
     }
   });
 </script>
-
-<style>
-  /* Media Query for smaller screens */
-  @media only screen and (max-width: 600px) {
-    .scroll-button {
-      display: none; /* Hide the buttons on smaller screens */
-    }
-  }
-</style>
