@@ -4,15 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Sumit Maurya
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Senior Data Engineer at GEP WorldWide
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**GitHub:** [WhatNextAlgo](https://github.com/WhatNextAlgo)  
+**LeetCode:** [user6736Jw](https://leetcode.com/user6736Jw/)
 
+### About Me
 
-[jekyll-organization]: https://github.com/jekyll
+I am Sumit Maurya, a seasoned Senior Data Engineer at GEP WorldWide. With a passion for solving complex data problems, I thrive in designing and implementing robust data solutions. My expertise lies in crafting scalable and efficient data pipelines to support various business needs.
+
+### Connect with Me
+
+- [GitHub](https://github.com/WhatNextAlgo)
+- [LeetCode](https://leetcode.com/user6736Jw/)
+
+Feel free to explore my GitHub repositories and LeetCode profile to get insights into my projects and problem-solving skills.
+
+If you have any questions or collaboration opportunities, don't hesitate to reach out. I'm always open to connecting with fellow data enthusiasts!
+

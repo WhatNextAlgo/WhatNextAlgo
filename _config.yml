@@ -21,7 +21,9 @@
 title: WhatNextAlgo
 email: whatnextalgo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site.
+  Welcome to my blog! I'm Sumit Maurya, a Senior Data Engineer at GEP WorldWide. Explore LeetCode solutions for coding insights, 
+  delve into Spark for big data processing, and find practical tips for Python and Scala programming. 
+  Join me in the world of algorithms, Spark, Python, and Scala. Let's code and learn together!
 baseurl: "/WhatNextAlgo" # the subpath of your site, e.g. /blog
 url: "https://whatnextalgo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: whatnextalgo
