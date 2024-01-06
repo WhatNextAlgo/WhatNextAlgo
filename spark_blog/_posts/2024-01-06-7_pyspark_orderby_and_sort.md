@@ -7,7 +7,7 @@ order: 7
 ---
 In this section working with a PySpark DataFrame and performing sorting and ordering operations using different syntax variations. Let me explain each part of the code:
 
-## **DataFrame Creation:**
+### **DataFrame Creation:**
 
 {% highlight ruby %}
 simpleData = [("James","Sales","NY",90000,34,10000), \
@@ -30,7 +30,7 @@ df = spark.createDataFrame(data=simpleData, schema=columns)
 
 In this part, you create a PySpark DataFrame named `df` from a list of tuples (`simpleData`) with specified column names (`columns`).
 
-## **DataFrame Schema and Display:**
+### **DataFrame Schema and Display:**
 
 {% highlight ruby %}
 df.printSchema()
@@ -60,7 +60,7 @@ df.show(truncate=False)
 
 Here, you print the schema and display the content of the DataFrame without truncating the output.
 
-## **Sorting Operations:**
+### **Sorting Operations:**
 
 {% highlight ruby %}
 df.sort("department","state").show(truncate=False)
@@ -132,7 +132,7 @@ df.orderBy(col("department"),col("state")).show(truncate=False)
 
 These lines perform ordering on the DataFrame based on the "department" and "state" columns in ascending order using the `orderBy` method. Again, both lines are equivalent, showing two different ways of specifying column names.
 
-## **Sorting and Ordering with Ascending and Descending Order:**
+### **Sorting and Ordering with Ascending and Descending Order:**
 
 {% highlight ruby %}
 df.sort(df.department.asc(), df.state.asc()).show(truncate=False)

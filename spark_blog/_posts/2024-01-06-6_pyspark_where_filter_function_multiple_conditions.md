@@ -227,10 +227,6 @@ df2.filter(df2.name.rlike("(?i)^*rose$")).show()
 
 ### **8. Filter on an Array column:**
 {% highlight ruby %}
-{% endhighlight %}
-
-### **1. PySpark DataFrame filter() Syntax:**
-{% highlight ruby %}
 from pyspark.sql.functions import array_contains
 df.filter(array_contains(df.languages,"Java")).show(truncate=False)
 +----------------+------------------+-----+------+
