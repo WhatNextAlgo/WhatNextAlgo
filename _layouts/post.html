@@ -15,8 +15,14 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+   <!-- Top button -->
+   <div class="scroll-top" style="position: fixed; bottom: 20px; right: 80px;">
+    <a href="#top">Top</a>
   </div>
 
   {%- if site.disqus.shortname -%}
@@ -25,3 +31,17 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<div class="post-navigation" style="margin-top: 20px;">
+  {% if page.previous %}
+    <span class="previous" style="display: block; margin-bottom: 10px;">
+      Previous Post: <a class="u-url" href="{{ page.previous.url | relative_url}}">{{ page.previous.title }}</a>
+    </span>
+  {% endif %}
+
+  {% if page.next %}
+    <span class="next" style="display: block; margin-bottom: 10px;">
+      Next Post: <a class="u-url" href="{{ page.next.url | relative_url}}">{{ page.next.title }}</a>
+    </span>
+  {% endif %}
+</div>
