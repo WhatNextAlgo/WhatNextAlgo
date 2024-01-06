@@ -3,7 +3,18 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <!--
+      Original title display code for minima theme.
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    -->
+    <!-- custom code for title or title logo -->
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {%- if site.title-logo -%}
+      <img src="{{ site.title-logo | relative_url}}" alt="{{ site-title | escape}}" width="60px" height="60px">{{ site.title | escape }}</img>
+      {%- else -%}
+      {{ site.title | escape }}</a>
+      {%- endif -%}
+    </a>
 
     {%- if page_paths -%}
       <nav class="site-nav">

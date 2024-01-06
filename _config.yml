@@ -21,7 +21,7 @@
 title: WhatNextAlgo
 email: whatnextalgo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blob site.
+  Welcome to my blog site.
 baseurl: "/WhatNextAlgo" # the subpath of your site, e.g. /blog
 url: "https://whatnextalgo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: whatnextalgo
@@ -35,6 +35,9 @@ author: Sumit Maurya
 # Add a copyright. A copyright symbol and year will be added automatically
 # copyright: Company Name, Inc
 copyright: "WhatNextAlgo LLC"
+
+# title-logo is a new field that, when used the minima theme
+title-logo: /images/title-logo.png
 
 # Build settings
 # Removed minima theme using regular 
