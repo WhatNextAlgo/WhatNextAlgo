@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-spark_architecture
-title: "Spark Architecture Blog"
+title: "Spark Architecture"
 category: Architecture
 ---

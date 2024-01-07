@@ -37,19 +37,24 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<!-- <div class="post-navigation" style="margin-top: 20px;">
-  {% if page.previous %}
-    <span class="previous" style="display: block; margin-bottom: 10px;">
-      Previous Post: <a class="u-url" href="{{ page.previous.url | relative_url}}">{{ page.previous.title }}</a>
-    </span>
-  {% endif %}
+<!-- {% if page.previous or page.next %}
+  <div class="post-navigation" style="margin-top: 20px;">
+  
+    {% if page.previous %}
+      <span class="previous" style="display: block; margin-bottom: 10px;">
+        Previous Post: <a class="u-url" href="{{ page.previous.url | relative_url}}">{{ page.previous.title }}</a>
+      </span>
+    {% endif %}
+  
+    {% if page.next %}
+      <span class="next" style="display: block; margin-bottom: 10px;">
+        Next Post: <a class="u-url" href="{{ page.next.url | relative_url}}">{{ page.next.title }}</a>
+      </span>
+    {% endif %}
+    
+  </div>
+{% endif %} -->
 
-  {% if page.next %}
-    <span class="next" style="display: block; margin-bottom: 10px;">
-      Next Post: <a class="u-url" href="{{ page.next.url | relative_url}}">{{ page.next.title }}</a>
-    </span>
-  {% endif %}
-</div> -->
 
 <script>
   // Show/hide the "Top" button based on scroll position
