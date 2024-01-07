@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Leetcode!"
 date:   2023-12-31 21:22:54 +0530
-categories: jekyll update
+categories: None
 ---
 
 # 700. Search in a Binary Search Tree
