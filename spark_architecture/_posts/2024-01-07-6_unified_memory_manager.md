@@ -48,10 +48,14 @@ The concurrent tasks running inside Executor share JVM's on-heap memory.
 
 Two main configurations that control Executor memory allocation:
 
-| Parameter                        | Description                                                                                                                                         |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `spark.memory.fraction`          | Fraction of the heap space used for execution and storage. The lower this is, the more frequently spills and cached data eviction occur. The purpose of this config is to set aside memory for internal metadata, user data structures, and imprecise size estimation in the case of sparse, unusually large records. Default: 0.6 |
-| `spark.memory.storageFraction`   | The size of the storage region within the space set aside by `spark.memory.fraction`. Cached data may only be evicted if total storage exceeds this region. Default: 0.5 |
+
+| Parameter                    | Description                                                                                                                                         |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `spark.memory.fraction`      | Fraction of the heap space used for execution and storage. The lower this is, the more frequently spills and cached data eviction occur. The purpose of this config is to set aside memory for internal metadata, user data structures, and imprecise size estimation in the case of sparse, unusually large records. Default: 0.6 |
+| `spark.memory.storageFraction`| The size of the storage region within the space set aside by `spark.memory.fraction`. Cached data may only be evicted if total storage exceeds this region. Default: 0.5 |
+{: .table-responsive}
+
+
 
 
 **Note:** In `Spark 1.6`, the spark.memory.fraction value will be 0.75 and `spark.memory.storageFraction` value will be 0.5.
@@ -275,11 +279,11 @@ This model does not apply within the JVM memory, but calls the Java API for the 
 
 Spark 1.6+ began to introduce Off-heap memory [SPARK-11389](https://issues.apache.org/jira/browse/SPARK-11389){:target="_blank"}. Unified Memory Manager can optionally be allocated using off-heap memory.
 
-
-| Parameter                     | Description                                                                                                              |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `spark.memory.offHeap.enabled` | The option to use off-heap memory for certain operations. Default: false                                                  |
-| `spark.memory.offHeap.size`    | The total amount of memory in bytes for off-heap allocation. It has no impact on heap memory usage, so make sure not to exceed your executor’s total limits. Default: 0 |
+| Parameter                    | Description                                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `spark.memory.offHeap.enabled`| Use off-heap memory for certain operations. Default: false                                                                |
+| `spark.memory.offHeap.size`   | Total off-heap memory in bytes. No impact on heap memory usage. Ensure it doesn't exceed executor’s total limits. Default: 0 |
+{: .table-responsive}
 
 
 By default, Off-heap memory is disabled, but we can enable it by the `spark.memory.offHeap.enabled (false by default)` parameter, and set the memory size by `spark.memory.offHeap.size (0 by default)` parameter.
