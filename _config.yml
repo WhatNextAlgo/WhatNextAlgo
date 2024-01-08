@@ -46,6 +46,7 @@ title-logo: /images/title-logo.png
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-search
 
 # Exclude from processing.
 # The following items will not be processed, by default.

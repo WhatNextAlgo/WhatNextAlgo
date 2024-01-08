@@ -21,6 +21,7 @@ The size of Storage Memory and Execution Memory and other memory is fixed during
 **Advantage:**
 
 - Static Memory Manager mechanism is simple to implement
+
 **Disadvantage:** 
 
 - Even though space is available with storage memory, we can’t use it, and there is a disk spill since executor memory is full. (vice versa).
