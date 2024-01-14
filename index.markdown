@@ -18,4 +18,9 @@ I am a Senior Data Engineer at GEP WorldWide with a passion for solving complex 
 - **GitHub:** [WhatNextAlgo](https://github.com/WhatNextAlgo)
 - **LeetCode:** [user6736Jw](https://leetcode.com/user6736Jw/)
 
+### **Badges:**
+
+![Badges](/WhatNextAlgo/images/Badges.gif){:width="70%" height="70%"}
+
+
 Feel free to explore my GitHub repositories and LeetCode solutions to get insights into my work and problem-solving skills.
