@@ -20,7 +20,7 @@ I am a Senior Data Engineer at GEP WorldWide with a passion for solving complex 
 
 ### **Badges:**
 
-![Badges](/WhatNextAlgo/images/Badges.gif){:width="70%" height="70%"}
+![Badges](/WhatNextAlgo/images/Badges.gif){:width="90%" height="90%"}
 
 
 Feel free to explore my GitHub repositories and LeetCode solutions to get insights into my work and problem-solving skills.
